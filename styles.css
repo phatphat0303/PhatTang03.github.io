@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #080808;
+    overflow: hidden;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(10px);
+    background: url('1015873-download-free-gundam-00-raiser-wallpaper-1920x1080-4k.jpg') center/cover no-repeat;
+}
+
+header {
+    background-color: #141313;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+.section-with-two-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-with-two-images img {
+    width: 45%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-with-two-images img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #e64f4f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
