@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    color: #080808;
+    color: #e94545;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@ p {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 1.5;
-    color: #333;
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
 }
 
@@ -92,7 +92,7 @@ section img:hover {
 }
 
 footer {
-    background-color: #e64f4f;
+    background-color: #318ba1;
     color: #fff;
     text-align: center;
     padding: 1em;
