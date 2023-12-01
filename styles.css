@@ -15,7 +15,7 @@ body {
     height: 100%;
     z-index: -1;
     filter: blur(10px);
-    background: url('1015873-download-free-gundam-00-raiser-wallpaper-1920x1080-4k.jpg') center/cover no-repeat;
+    background: url('image/1015873-download-free-gundam-00-raiser-wallpaper-1920x1080-4k.jpg') center/cover no-repeat;
 }
 
 header {
@@ -27,9 +27,9 @@ header {
 
 p {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
-    color: rgb(255, 255, 255);
+    color: rgb(18, 224, 224);
     margin-bottom: 15px;
 }
 
@@ -115,3 +115,5 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+
