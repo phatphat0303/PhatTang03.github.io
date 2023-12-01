@@ -1,0 +1,106 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.timeline-icon {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.myself,
+.school,
+.jobandcollege {
+    margin-bottom: 30px;
+}
+
+.event-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+nav ul {
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
