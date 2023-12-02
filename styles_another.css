@@ -1,7 +1,7 @@
 body {
     font-family: 'Verdana', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #c6dad3;
     color: #333;
     margin: 0;
     display: flex;
@@ -22,7 +22,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 nav a {
@@ -52,7 +52,7 @@ nav a {
 .myself,
 .school,
 .jobandcollege {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .event-content {
